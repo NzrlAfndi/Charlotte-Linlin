@@ -1,0 +1,68 @@
+{
+  "name": "charlotte-linlin",
+  "version": "1.0.0",
+  "description": "AI Tuh ChatGpt Bukan Wangsap",
+  "main": "main.js",
+  "type": "commonjs",
+  "dependencies": {
+    "@adiwajshing/baileys": "npm:@ferdiz-afk/baileys",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@bochilteam/scraper": "^4.0.22-alpha.0",
+    "@ffmpeg-installer/ffmpeg": "^1.0.2",
+    "awesome-phonenumber": "^2.64.0",
+    "axios": "^0.24.0",
+    "cfonts": "^2.9.1",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.10",
+    "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "emoji-api": "^2.0.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "file-type": "^16.5.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "human-readable": "^0.2.1",
+    "lolcatjs": "^2.4.1",
+    "moment-timezone": "^0.5.34",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^2.6.1",
+    "node-webpmux": "^3.1.0",
+    "os": "^0.1.2",
+    "parse-ms": "^2.1.0",
+    "path": "^0.12.7",
+    "performance-now": "2.1.0",
+    "perf_hooks": "0.0.1",
+    "pino": "^7.9.2",
+    "qrcode-terminal": "^0.12.0",
+    "qs": "6.11.0",
+    "request": "^2.88.2",
+    "supervisor": "^0.12.0",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "@hapi/boom": "^9.1.4",
+    "jimp": "^0.16.1",
+    "pino": "^7.6.5",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NzrlAfndi/Charlotte-Linlin.git"
+  },
+  "keywords": [
+    "multi-device",
+    "whatsapp-bot",
+    "Code-Crew"
+  ],
+  "author": "NzrlAfndi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NzrlAfndi/Charlotte-Linlin/issues"
+  },
+  "homepage": "https://github.com/NzrlAfndi/Charlotte-Linlin#readme"
+}

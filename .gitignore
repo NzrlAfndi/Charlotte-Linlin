@@ -1,0 +1,8 @@
+# Dempedency directory
+node_modules
+session
+
+# Lock files
+package-lock.json
+yarn.lock
+yarn-error.log
