@@ -4,6 +4,7 @@
    * Follow https://github.com/NzrlAfndi
 */
 
+require("http").createServer((_, res) => res.end("UPTIMEEE")).listen(8080)
 require('../settings');
 const { default: makeWASocket, delay, DisconnectReason, fetchLatestBaileysVersion, makeInMemoryStore, useMultiFileAuthState, useSingleFileAuthState,  jidNormalizedUser, jidDecode } = require('@adiwajshing/baileys');
 const { Boom } = require('@hapi/boom');
@@ -25,6 +26,15 @@ Commands.prefix = global.prefa
 
 //Biar Rapih Aja
 const welcome = require('./shorten/welcome')
+
+const express = require('express')
+let app = express()
+const {
+   createServer
+} = require('http')
+let server = createServer(app)
+
+let PORT = 3000 || 8000 || 8080
 
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 store.readFromFile('./session/baileys_store.json')
