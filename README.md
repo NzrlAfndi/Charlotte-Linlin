@@ -42,6 +42,12 @@ Don't forget to add FFmpeg to the PATH environment variable
 ```
 </details>
 
+## All Project Me
+* [`Ichigo Kurosaki`](https://github.com/NzrlAfndi/Ichigo-Kurosaki) Base By Me Case Version
+* [`Dracule Mihawk`](https://github.com/NzrlAfndi/Dracule-Mihawk) Base By Me Case Version (Completed From Base)
+* [`Charlotte Linlin`](https://github.com/NzrlAfndi/Charlotte-Linlin) Base New By Me And Friend
+
+
 <b><details><summary>For Termux</summary></b>
 * Highly Recommended To use [`termux from Fdroid!`](https://f-droid.org/en/packages/com.termux/)
 
