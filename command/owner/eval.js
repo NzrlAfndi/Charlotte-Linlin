@@ -12,10 +12,10 @@ module.exports = {
     try {
       if (text.endsWith("--sync")) {
         evaled = await eval(`(async () => { ${text.trim.replace("--sync", "")} })`)
-        return m.reply(evaled)
+        return m.reply(require('util').format(evaled))
       }
       evaled = await eval(text)
-      if (typeof evaled !== "string") evaled = require("util").inspect(evaled)
+      if (typeof evaled !== "string") evaled = require("util").format(evaled)
       await mom.sendMessage(m.from, { text: evaled }, { quoted: m })
     } catch (e) {
       mom.sendMessage(m.from, { text: String(e) }, { quoted: m })
