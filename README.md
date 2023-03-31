@@ -14,7 +14,7 @@ Visit [`this version`](https://github.com/NzrlAfndi/Charlotte-Linlin/tree/replit
 ## Thanks To
 * [`Adiwajshing`](https://github.com/Adiwajshing) As Owner Of Baileys
 * [`Zhwzein`](https://github.com/zhwzein), [`Skylarkaf`](https://github.com/skylarkaf), [`Xzeera-id`](https://github.com/xzeera-id) As inspiration in making this base
-* [`Erlan`](https://github.com/Erlanrahmat), [`Fatih`](https://github.com/fatiharridho), [`Dika`](https://github.com/Dikaarndt), [`Mhankbarbar`](https://github.com/Mhankbarbar) As contributors
+* [`Erlan`](https://github.com/Erlanrahmat), [`Fatih`](https://github.com/fatiharridho), [`Dika`](https://github.com/Dikaarndt), [`Mhankbarbar`](https://github.com/Mhankbarbar), [`Ferdiz`](https://github.com/Ferdiz-Afk) As contributors
 
 ## Advantages of this Base
 -   [x] Simple Usage
